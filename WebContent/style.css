@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #444;
+	margin: 0 auto 20px auto;
+	padding: 0;
+    
+}
+
+/* Resetting styles for cross-browser compatibility */
+h1, h2, h3, h4, h5, h6, h7, p, form, ul, ol, li, blockquote, fieldset {margin: 0; padding: 0;}
+img, a {border:none; text-decoration: none;}
+ul, li {list-style:none;}
+
+/* Default link colors */
+a:link {color: #17a; text-decoration: none;}
+a:visited {color: #17a; text-decoration: none;}
+a:hover {color: #0099ea; text-decoration: underline;}
+a:active {color: #17a; text-decoration: none;}
+
+/* Some general styles */
+p {
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1.2em;
+}
+h1, h2, h3, h4, h5, h6, h7 {font-family: Arial, Helvetica, sans-serif;}
+h1, h2 {
+    font-size: 16px;
+}
+h3, h4 {
+    font-size: 14px;
+}
+h5, h6, h7 {
+    font-size: 12px;
+}
+
+#navbar {
+	margin: 10px auto;
+	padding: 10px;
+	position: relative;
+    width: 750px;
+	height: 70px;
+	background: #9c0 url(images/nav-bg.png) 0 0 repeat-x;
+	font: bold 22px tahoma, Arial, Helvetica, sans-serif;
+}
+
+#navbar ul {
+	margin: 20px 10px;
+	padding: 0;
+	float: left;
+}
+
+#navbar li {
+	padding: 0 2px 0 0;
+	margin: 0;
+	float: left;
+	background: url(images/nav-sep.png) 100% 0 no-repeat;
+}
+
+#navbar ul li a:link, #navbar ul li a:active, #navbar ul li a:visited {
+	display: block;
+	float: left;
+	padding: 0 20px;
+	height: 28px;
+	line-height: 28px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+	background: url(images/nav-bg.png) 0 100% repeat-x;
+}
+
+*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
+ .top-header .navbar{
+     padding: 5px 0px;
+}
+ .top-header {
+     background-image: url("../images/header_img.png");
+     position: relative;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     margin: 0 auto;
+     z-index: 20;
+     background-position: left;
+     background-repeat: no-repeat;
+     background-color: #0892fd;
+     background-size: auto 100%;
+}
+ .top-header .navbar .navbar-collapse ul li a {
+     text-transform: uppercase;
+     font-size: 15px;
+     padding: 7px 20px;
+     position: relative;
+     font-weight: 400;
+     overflow: hidden;
+     color: #000;
+}
+img.navbar-brand {
+	 top: -14%;
+	 right: 100%;
+	 position: relative;
+     width: 100px;
+     height: auto;
+}
+ .top-header .navbar .navbar-collapse ul li a.active {
+}
+ .top-header .navbar .navbar-collapse ul li a:hover, .top-header .navbar .navbar-collapse ul li a:focus {
+     background: transparent;
+     color: #fff;
+     border-radius: ;
+}
+ .search_icon.nav-link img {
+     width: 25px;
+}
+ .top-header .navbar .navbar-collapse ul li {
+     margin: 0 2px;
+}
+ .top-header.fixed-menu {
+     width: 100%;
+     position: fixed;
+     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+     -webkit-animation-duration: 1s;
+     animation-duration: 1s;
+     -webkit-animation-fill-mode: both;
+     animation-fill-mode: both;
+     -webkit-animation-name: fadeInDown;
+     animation-name: fadeInDown;
+     background: #fff;
+     z-index: 20;
+}
+ .navbar-toggler {
+     border: 2px solid #0892fd;
+     border-radius: 0;
+     margin: 15px 15px;
+     padding: 8px 8px;
+     -webkit-transition: all 0.2s linear;
+     -moz-transition: all 0.2s linear;
+     -o-transition: all 0.2s linear;
+     transition: all 0.2s linear;
+}
+ .navbar-toggler span {
+     background: #0892fd;
+     display: block;
+     width: 22px;
+     height: 2px;
+     margin: 0 auto;
+     margin-top: 0px;
+     margin-top: 0px;
+     -webkit-border-radius: 1px;
+     -moz-border-radius: 1px;
+     border-radius: 1px;
+     -webkit-transition: all 0.2s linear;
+     -moz-transition: all 0.2s linear;
+     -o-transition: all 0.2s linear;
+     transition: all 0.2s linear;
+}
+ .navbar-toggler span + span{
+     margin-top: 5px;
+}
+ .navbar-toggler:hover {
+     border: 2px solid #0892fd;
+}
+ .navbar-toggler:hover span{
+     background: #0892fd;
+}
+
+#indexBack{
+	background: url(image/insurance2.jpg)  no-repeat ; 
+  background-size: auto 100% ;
+     min-height: 100%;
+     background-position: center center;
+}
+
+h1.indexTitle{
+	text-align: center;
+	text-shadow:0 0 3px #FF0000;
+	font-size: 30px;
+}
+
+h2.indexBody{
+	text-align: center;
+	text-shadow: 0 0 10px #ffffff;
+	font-size: 20px;
+	color:black;
+}
+
+#loginForm {
+
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+div.loginBack{
+  background-image: url("image/welcome.jpg");
+
+  /* Control the height of the image */
+  min-height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

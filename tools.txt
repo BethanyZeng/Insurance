@@ -1,0 +1,18 @@
+Front-end: HTML, CSS
+Back-end: Java8
+Database: MySQL 8.0
+Server: Apache Tomcat v8.5
+Other technology: JDBC, Servlet, JSP, JavaScript
+IDE: Spring Tool Suite 4
+https://youtu.be/kx-aePd646Q
+
+echo "# Insurance" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/PepperFreeman/Insurance.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/PepperFreeman/Insurance.git
+git push -u origin master
