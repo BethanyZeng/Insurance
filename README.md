@@ -14,9 +14,9 @@ Other technology: JDBC, Servlet, JSP
 IDE: Spring Tool Suite 4
 
 
-Proof of Concept (PoC)
+## Proof of Concept (PoC)
 
-Explore why the Customer needs the software?
+❖ Explore why the Customer needs the software?
 
 The existing system is the manual system. The manual system is prone to error. It is time consuming. It is very difficult for a person to produce the report. There are chances for changing the scheme report and do malpractice. This system involves a lot of manual entries with the applications to perform the desired task.Usage of papers in the payment process leads to less efficiency, less accuracy and less productivity
 
