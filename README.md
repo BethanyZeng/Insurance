@@ -40,4 +40,4 @@ Anytime
 
 ❖ Clarify who the Stakeholders are?
 
-Insurance companies, users, placeholders, agents
+Insurance companies, users, policyholders, agents
